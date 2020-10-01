@@ -1,0 +1,16 @@
+{
+  "generator-easy-ui5": {
+    "projectname": "ILUserInterface",
+    "namespace": "com.sap",
+    "platform": "Application Router @ Cloud Foundry",
+    "viewtype": "XML",
+    "viewname": "app",
+    "ui5libs": "Content delivery network (OpenUI5)",
+    "newdir": true,
+    "namespaceURI": "com/sap",
+    "uimodules": [
+      "uimodule"
+    ],
+    "setupCompleted": true
+  }
+}
