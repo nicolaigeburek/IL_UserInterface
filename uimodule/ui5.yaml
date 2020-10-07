@@ -7,7 +7,11 @@ resources:
     paths:
       webapp: uimodule/webapp
 framework:
+<<<<<<< HEAD
   name: SAPUI5
+=======
+  name: OpenUI5
+>>>>>>> 6daf2e38064406dfc62b3b0f2ccff43ec8d5adce
   version: 1.80.0
   libraries:
     - name: sap.ui.core
@@ -28,8 +32,14 @@ server:
         port: 1091
         xsappJson: approuter/xs-app.json
         destinations:
+<<<<<<< HEAD
             - name: "my-demoAPI"
               url: "https://ic-cf-2020-team-559-interactionless-srv.cfapps.eu10.hana.ondemand.com"
+=======
+        - name: "myAPI"
+        url: "https://ic-cf-2020-team-559-interactionless-srv.cfapps.eu10.hana.ondemand.com"
+
+>>>>>>> 6daf2e38064406dfc62b3b0f2ccff43ec8d5adce
 builder:
   customTasks:
     -  name: "ui5-task-zipper"
