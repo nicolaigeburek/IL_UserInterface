@@ -12,17 +12,10 @@
       "localDir": "uimodule/webapp"
     },
     {
-<<<<<<< HEAD
      "source": "^/my/(.*)$",
     "authenticationType": "none",
     "destination": "my-demoAPI",
     "csrfProtection": false
-=======
-      "source": "^/my/(.*)$",
-      "authenticationType": "none",
-      "destination": "myAPI",
-      "csrfProtection": false
->>>>>>> 6daf2e38064406dfc62b3b0f2ccff43ec8d5adce
     }
   ]
 }
